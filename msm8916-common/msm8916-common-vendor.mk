@@ -115,9 +115,7 @@ PRODUCT_PACKAGES += \
     xtra-daemon \
     xtwifi-client \
     xtwifi-inet-agent \
-    cacert_location \
     xtra_root_cert \
-    android.hardware.gnss@2.1-service-qti \
     android.hardware.gnss@2.1-impl-qti \
     vendor.qti.gnss@4.0-impl \
     libbatching \
