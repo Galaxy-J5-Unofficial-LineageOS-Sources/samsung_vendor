@@ -795,6 +795,25 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
+
+cc_prebuilt_binary {
+	name: "vendor.dolby.hardware.dms@1.0-service",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service"],
+		},
+	},
+	relative_install_path: "hw",
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "libc2d30-a5xx",
 	owner: "samsung",
@@ -1618,24 +1637,6 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so"],
 		},
 	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.dolby.hardware.dms@1.0-service",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service"],
-		},
-	},
-	relative_install_path: "hw",
 	compile_multilib: "32",
 	check_elf_files: false,
 	prefer: true,
