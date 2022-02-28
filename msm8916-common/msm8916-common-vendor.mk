@@ -57,7 +57,12 @@ PRODUCT_PACKAGES += \
     libjpegdhw \
     libjpegehw \
     libmmcamera_faceproc \
-    mm-qcamera-daemon
+    mm-qcamera-daemon \
+    libmmcamera_tuning \
+    libmmcamera_wavelet_lib \
+    liboemcamera \
+    SnapdragonCamera \
+    vendor.qti.hardware.camera.device@1.0_vendor
 
 # DRM
 PRODUCT_PACKAGES += \
