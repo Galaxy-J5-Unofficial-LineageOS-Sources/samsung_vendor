@@ -10036,7 +10036,7 @@ android_app_import {
 android_app_import {
 	name: "SnapdragonCamera",
 	owner: "samsung",
-	apk: "proprietary/app/SnapdragonCamera/SnapdragonCamera.apk",
+	apk: "proprietary/system/priv-app/SnapdragonCamera/SnapdragonCamera.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
