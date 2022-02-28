@@ -524,23 +524,6 @@ cc_prebuilt_library_shared {
 
 
 cc_prebuilt_library_shared {
-	name: "libmmcamera2_stats_algorithm",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_algorithm.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libmmcamera_cac2_lib",
 	owner: "samsung",
 	strip: {
@@ -549,23 +532,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_cac2_lib.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmmcamera_wavelet_lib",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmmcamera_wavelet_lib.so"],
 		},
 	},
 	compile_multilib: "32",
