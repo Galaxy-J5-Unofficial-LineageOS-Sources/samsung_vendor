@@ -109,9 +109,6 @@ PRODUCT_PACKAGES += \
     libactuator_rohm_bu64243gwz_camcorder \
     libactuator_rohm_bu64243gwz_camera \
     libcamera2ndk \
-    libcamera_client \
-    libcamera_metadata \
-    libcameraservice \
     libchromatix_S5K4E1_13P1BA_common \
     libchromatix_S5K4E1_13P1BA_default_video \
     libchromatix_S5K4E1_13P1BA_hfr_120fps \
