@@ -267,7 +267,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti-at \
     libqti-perfd-client \
-    perfd
+    perfd \
+    vendor.qti.hardware.perf@1.0_vendor
 
 # Post-processing
 PRODUCT_PACKAGES += \
