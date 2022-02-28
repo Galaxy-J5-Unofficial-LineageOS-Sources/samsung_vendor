@@ -28,7 +28,7 @@ dex_import {
 dex_import {
 	name: "com.qualcomm.qti.camera",
 	owner: "samsung",
-	jars: ["proprietary/system/framework/com.qualcomm.qti.camera.jar "],
+	jars: ["proprietary/system/framework/com.qualcomm.qti.camera.jar"],
 }
 
 prebuilt_etc_xml {
