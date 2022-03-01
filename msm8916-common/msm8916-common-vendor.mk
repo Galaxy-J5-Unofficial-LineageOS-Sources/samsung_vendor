@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     cameraserver \
     android.hardware.camera.provider@2.4-service \
     mm-qcamera-app \
-    camera.device@1.0-impl \
     android.hardware.camera.provider@2.4-impl \
     camera.msm8916 \
     lib-imscamera \
@@ -109,7 +108,6 @@ PRODUCT_PACKAGES += \
     libactuator_rohm_bu64243gwz \
     libactuator_rohm_bu64243gwz_camcorder \
     libactuator_rohm_bu64243gwz_camera \
-    libcamera2ndk \
     libchromatix_S5K4E1_13P1BA_common \
     libchromatix_S5K4E1_13P1BA_default_video \
     libchromatix_S5K4E1_13P1BA_hfr_120fps \
