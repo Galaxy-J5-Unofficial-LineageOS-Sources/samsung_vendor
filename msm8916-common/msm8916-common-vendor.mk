@@ -384,6 +384,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:system/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
 
+# Emoji
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/system/fonts/NotoColorEmoji.ttf:system/fonts/NotoColorEmoji.ttf
+
 # FM
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0-impl \
