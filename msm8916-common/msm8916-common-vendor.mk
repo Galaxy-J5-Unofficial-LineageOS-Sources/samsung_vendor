@@ -343,6 +343,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_wavelet_lib \
     liboemcamera \
+    vendor.qti.hardware.camera.device@1.0_vendor \
     SnapdragonCamera
 
 # DRM
