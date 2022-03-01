@@ -451,6 +451,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:system/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 
+# GNU parted
+PRODUCT_PACKAGES += \
+    parted
+
 # Graphics
 PRODUCT_PACKAGES += \
     eglsubAndroid \
