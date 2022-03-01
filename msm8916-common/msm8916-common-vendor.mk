@@ -427,6 +427,7 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     liblbs_core \
+    liblocdiagiface \
     libloc_api_v02 \
     libloc_core \
     libloc_socket \
