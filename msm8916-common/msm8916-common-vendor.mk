@@ -570,10 +570,13 @@ PRODUCT_PACKAGES += \
     libqti-perfd \
     perfd \
     vendor.qti.hardware.perf@1.0_vendor \
-    vendor.qti.hardware.perf@1.0-service.rc \
     vendor.qti.hardware.perf@1.0 \
     libqti-perfd-client_system \
     vendor.qti.hardware.perf@1.0-service
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+
 
 # Post-processing
 PRODUCT_PACKAGES += \
