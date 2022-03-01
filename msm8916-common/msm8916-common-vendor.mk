@@ -390,6 +390,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/system/fonts/NotoColorEmoji.ttf:system/fonts/NotoColorEmoji.ttf
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/system/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+    vendor/samsung/msm8916-common/proprietary/system/fonts/RobotoStatic-Regular.ttf:system/fonts/RobotoStatic-Regular.ttf
+
 # FM
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0-impl \
