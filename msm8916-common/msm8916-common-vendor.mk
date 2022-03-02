@@ -568,6 +568,7 @@ PRODUCT_PACKAGES += \
     libqti-at \
     libqti-perfd-client \
     libqti-perfd \
+    libperfgluelayer \
     perfd \
     vendor.qti.hardware.perf@1.0_vendor \
     vendor.qti.hardware.perf@1.0 \
