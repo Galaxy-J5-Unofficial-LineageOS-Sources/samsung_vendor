@@ -715,6 +715,10 @@ PRODUCT_PACKAGES += \
 # Security
 PRODUCT_PACKAGES += \
     libgdmcprov
+    
+# Sensors
+PRODUCT_PACKAGES += \
+    QSensorTest
 
 # STLport
 PRODUCT_PACKAGES += \
