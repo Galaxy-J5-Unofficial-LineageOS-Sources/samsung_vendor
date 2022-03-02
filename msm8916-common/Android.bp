@@ -10084,3 +10084,14 @@ android_app_import {
 	soc_specific: true,
 }
 
+android_app_import {
+	name: "QSensorTest",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/QSensorTest/QSensorTest.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
