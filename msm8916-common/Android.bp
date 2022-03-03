@@ -10029,7 +10029,7 @@ android_app_import {
 android_app_import {
 	name: "SnapdragonGallery",
 	owner: "samsung",
-	apk: "proprietary/system/priv-app/SnapdragonCamera/SnapdragonGallery.apk",
+	apk: "proprietary/system/priv-app/SnapdragonGallery/SnapdragonGallery.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -10040,7 +10040,7 @@ android_app_import {
 android_app_import {
 	name: "SnapdragonMusic",
 	owner: "samsung",
-	apk: "proprietary/system/priv-app/SnapdragonCamera/SnapdragonMusic.apk",
+	apk: "proprietary/system/priv-app/SnapdragonMusic/SnapdragonMusic.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
