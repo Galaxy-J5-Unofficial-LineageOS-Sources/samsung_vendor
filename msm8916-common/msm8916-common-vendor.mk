@@ -545,7 +545,13 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Dec \
     libqomx_jpegdec \
     libsd_sdk_display \
-    libmmparser
+    libmmparser \
+    libjni_dualcamera \
+    libjni_filtergenerator \
+    libjni_gallery_eglfence \
+    libjni_gallery_filters \
+    libjni_gallery_jpegstream \
+    libjni_trueportrait
 
 # Miscellaneous
 PRODUCT_PACKAGES += \
