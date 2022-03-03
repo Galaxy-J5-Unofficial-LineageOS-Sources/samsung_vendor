@@ -342,6 +342,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_wavelet_lib \
     liboemcamera \
+    libjni_imageutil \
+    libjni_snapcammosaic \
+    libjni_snapcamtinyplanet \
     vendor.qti.hardware.camera.device@1.0_vendor 
     
 # DRM
