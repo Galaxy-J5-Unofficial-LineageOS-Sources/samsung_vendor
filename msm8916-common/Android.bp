@@ -9975,6 +9975,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SnapdragonGallery",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/SnapdragonCamera/SnapdragonGallery.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "SnapdragonMusic",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/SnapdragonCamera/SnapdragonMusic.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "Lawnchair",
 	owner: "Lawnchair",
 	apk: "proprietary/system/priv-app/Lawnchair/Lawnchair.apk",
