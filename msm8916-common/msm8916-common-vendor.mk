@@ -403,61 +403,7 @@ PRODUCT_PACKAGES += \
     fm_qsoc_patches
 
 # GNSS HAL
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-service-qti \
-    garden_app \
-    loc_launcher \
-    lowi-server \
-    slim_daemon \
-    xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
-    xtra_root_cert \
-    android.hardware.gnss@2.1-impl-qti \
-    vendor.qti.gnss@4.0-impl \
-    libbatching \
-    libcdfw \
-    libcdfw_remote_api \
-    libdataitems \
-    libgarden \
-    libgarden_haltests_e2e \
-    libgdtap \
-    libgeofencing \
-    libgnss \
-    libgnsspps \
-    libgps.utils \
-    libizat_client_api \
-    libizat_core \
-    liblbs_core \
-    liblocdiagiface \
-    libloc_api_v02 \
-    libloc_core \
-    libloc_socket \
-    liblocation_api \
-    liblocationservice \
-    liblocationservice_glue \
-    liblowi_client \
-    liblowi_wifihal \
-    libpdmapper \
-    libpdnotifier \
-    libqmi_cci-v30 \
-    libslimclient \
-    libxtadapter \
-    libxtwifi_server_protocol \
-    libxtwifi_server_protocol_uri_v3 \
-    vendor.qti.gnss@1.0 \
-    vendor.qti.gnss@1.1 \
-    vendor.qti.gnss@1.2 \
-    vendor.qti.gnss@2.0 \
-    vendor.qti.gnss@2.1 \
-    vendor.qti.gnss@3.0 \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.gnss@4.0
 
-PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:system/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 
 # GNU parted
 PRODUCT_PACKAGES += \
