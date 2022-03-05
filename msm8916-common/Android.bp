@@ -9835,6 +9835,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "Lawnicons",
+	owner: "Lawnchair",
+	apk: "proprietary/system/priv-app/Lawnicons/Lawnicons.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+  
+
+android_app_import {
 	name: "OTA",
 	owner: "LineageOS",
 	apk: "proprietary/system/priv-app/OTA/OTA.apk",
