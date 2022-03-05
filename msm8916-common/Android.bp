@@ -4056,24 +4056,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.location",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/com.qualcomm.location.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-
-cc_prebuilt_library_shared {
 	name: "libchromatix_S5K4E1_13P1BA_snapshot",
 	owner: "samsung",
 	strip: {
@@ -9962,3 +9944,13 @@ android_app_import {
 	soc_specific: true,
 }
 
+android_app_import {
+	name: "com.qualcomm.location",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
