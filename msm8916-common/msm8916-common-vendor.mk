@@ -403,7 +403,38 @@ PRODUCT_PACKAGES += \
     fm_qsoc_patches
 
 # GNSS HAL
-
+PRODUCT_PACKAGES += \
+    com.qti.location.sdk \
+    com.qualcomm.location \
+    izat.xt.srv \
+    com.qti.location.sdk \
+    izat.xt.srv \
+    liblocationservice_jni \
+    libxt_native \
+    vendor.qti.gnss@1.0 \
+    loc_launcher \
+    libDRPlugin \
+    libalarmservice_jni \
+    libdataitems \
+    libdrplugin_client \
+    libevent_observer \
+    libflp \
+    libgdtap \
+    libgeofence \
+    libizat_client_api \
+    libizat_core \
+    liblbs_core \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libloc_externalDr \
+    liblocationservice \
+    liblocationservice_glue \
+    liblowi_client \
+    libulp2 \
+    libxtadapter \
+    vendor.qti.gnss@1.0_vendor \
+    vendor.qti.gnss@1.0-impl \
+    com.qualcomm.location
 
 # GNU parted
 PRODUCT_PACKAGES += \
