@@ -428,6 +428,7 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libloc_externalDr \
     libloc_pla \
+    libloc_stub \
     liblocationservice \
     liblocationservice_glue \
     liblowi_client \
