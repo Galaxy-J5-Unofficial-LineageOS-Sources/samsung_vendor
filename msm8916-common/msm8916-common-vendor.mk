@@ -404,6 +404,12 @@ PRODUCT_PACKAGES += \
 
 # GNSS HAL
 PRODUCT_PACKAGES += \
+    DR_AP_Service \
+    garden_app \
+    lowi-server \
+    slim_daemon \
+    xtra-daemon \
+    xtra_root_cert \
     com.qti.location.sdk \
     com.qualcomm.location \
     izat.xt.srv \
@@ -431,12 +437,11 @@ PRODUCT_PACKAGES += \
     libloc_stub \
     liblocationservice \
     liblocationservice_glue \
-    liblowi_client \
-    libulp2 \
-    libxtadapter \
+    lib_drplugin_server \
+    liblowi_wifihal \
+    libslimclient \
     vendor.qti.gnss@1.0_vendor \
-    vendor.qti.gnss@1.0-impl \
-    com.qualcomm.location
+    vendor.qti.gnss@1.0-impl
 
 # GNU parted
 PRODUCT_PACKAGES += \
