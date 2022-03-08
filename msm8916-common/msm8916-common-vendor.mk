@@ -409,7 +409,6 @@ PRODUCT_PACKAGES += \
     lowi-server \
     slim_daemon \
     xtra-daemon \
-    xtra_root_cert \
     com.qti.location.sdk \
     com.qualcomm.location \
     izat.xt.srv \
@@ -442,6 +441,9 @@ PRODUCT_PACKAGES += \
     libslimclient \
     vendor.qti.gnss@1.0_vendor \
     vendor.qti.gnss@1.0-impl
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem
 
 # GNU parted
 PRODUCT_PACKAGES += \
