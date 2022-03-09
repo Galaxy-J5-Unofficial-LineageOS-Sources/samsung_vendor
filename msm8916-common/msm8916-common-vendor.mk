@@ -717,6 +717,7 @@ PRODUCT_PACKAGES += \
     
 # Sensors
 PRODUCT_PACKAGES += \
+    libsensor1 \
     QSensorTest
 
 # Snapdragon Apps
