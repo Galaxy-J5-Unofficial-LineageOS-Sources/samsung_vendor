@@ -407,7 +407,6 @@ PRODUCT_PACKAGES += \
     DR_AP_Service \
     garden_app \
     lowi-server \
-    slim_daemon \
     xtra-daemon \
     com.qti.location.sdk \
     com.qualcomm.location \
