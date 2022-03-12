@@ -424,6 +424,7 @@ PRODUCT_PACKAGES += \
     libevent_observer \
     libflp \
     libgdtap \
+    libgeofence \
     libizat_client_api \
     libizat_core \
     liblbs_core \
