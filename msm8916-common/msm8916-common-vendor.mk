@@ -72,10 +72,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_wavelet_lib \
     liboemcamera \
     cameraserver \
-    android.hardware.camera.provider@2.4-service \
     mm-qcamera-app \
-    android.hardware.camera.provider@2.4-impl \
-    camera.msm8916 \
     lib-imscamera \
     libactuator_a3907 \
     libactuator_a3907_camcorder \
@@ -344,8 +341,7 @@ PRODUCT_PACKAGES += \
     liboemcamera \
     libjni_imageutil \
     libjni_snapcammosaic \
-    libjni_snapcamtinyplanet \
-    vendor.qti.hardware.camera.device@1.0_vendor 
+    libjni_snapcamtinyplanet
     
 # DRM
 PRODUCT_PACKAGES += \
