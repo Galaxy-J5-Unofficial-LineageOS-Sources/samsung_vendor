@@ -399,47 +399,47 @@ PRODUCT_PACKAGES += \
     fm_qsoc_patches
 
 # GNSS HAL
-#PRODUCT_PACKAGES += \
-#    DR_AP_Service \
-#   garden_app \
-#    lowi-server \
-#    xtra-daemon \
-#    com.qti.location.sdk \
-#    com.qualcomm.location \
-#    izat.xt.srv \
-#    com.qti.location.sdk \
-#    izat.xt.srv \
-#    liblocationservice_jni \
-#    libxt_native \
-#    vendor.qti.gnss@1.0 \
-#    loc_launcher \
-#    libDRPlugin \
-#    libalarmservice_jni \
-#    libdataitems \
-#    libdrplugin_client \
-#    libevent_observer \
-#    libflp \
-#    libgdtap \
-#    libgeofence \
-#    libizat_client_api \
-#    libizat_core \
-#    liblbs_core \
-#    libloc_api_v02 \
-#    libloc_ds_api \
-#    libloc_externalDr \
-#    libloc_pla \
-#    libloc_stub \
-#    liblocationservice \
-#    liblocationservice_glue \
-#    lib_drplugin_server \
-#    liblowi_wifihal \
-#    libslimclient \
-#    vendor.qti.gnss@1.0_vendor \
-#    vendor.qti.gnss@1.0-impl
+PRODUCT_PACKAGES += \
+    DR_AP_Service \
+    garden_app \
+    lowi-server \
+    xtra-daemon \
+    com.qti.location.sdk \
+    com.qualcomm.location \
+    izat.xt.srv \
+    com.qti.location.sdk \
+    izat.xt.srv \
+    liblocationservice_jni \
+    libxt_native \
+    vendor.qti.gnss@1.0 \
+    loc_launcher \
+    libDRPlugin \
+    libalarmservice_jni \
+    libdataitems \
+    libdrplugin_client \
+    libevent_observer \
+    libflp \
+    libgdtap \
+    libgeofence \
+    libizat_client_api \
+    libizat_core \
+    liblbs_core \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libloc_externalDr \
+    libloc_pla \
+    libloc_stub \
+    liblocationservice \
+    liblocationservice_glue \
+    lib_drplugin_server \
+    liblowi_wifihal \
+    libslimclient \
+    vendor.qti.gnss@1.0_vendor \
+    vendor.qti.gnss@1.0-impl
 
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem
-
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem
+    
 # GNU parted
 PRODUCT_PACKAGES += \
     parted
