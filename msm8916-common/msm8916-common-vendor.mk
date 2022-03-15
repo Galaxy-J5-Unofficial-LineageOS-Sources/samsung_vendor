@@ -46,19 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/samsung/msm8916-common/proprietary/system/etc/mmi/layout/layout_camera_back.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mmi/layout/layout_camera_back.xml \
-    vendor/samsung/msm8916-common/proprietary/system/etc/mmi/layout/layout_camera_front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mmi/layout/layout_camera_front.xml \
-    vendor/samsung/msm8916-common/proprietary/system/etc/mmi/layout/layout_camera_front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mmi/layout/layout_camera_front.xml \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/cameraserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cameraserver.rc
-
+    vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw 
+    
 PRODUCT_PACKAGES += \
-    android.hardware.camera.flash-autofocus \
-    android.hardware.camera.front \
-    android.hardware.camera.full \
-    android.hardware.camera.raw \
-    com.qualcomm.qti.camera \
     libexifa \
     libjpega \
     libmmcamera_interface \
@@ -68,12 +58,6 @@ PRODUCT_PACKAGES += \
     libjpegehw \
     libmmcamera_faceproc \
     mm-qcamera-daemon \
-    libmmcamera_tuning \
-    libmmcamera_wavelet_lib \
-    liboemcamera \
-    cameraserver \
-    mm-qcamera-app \
-    lib-imscamera \
     libactuator_a3907 \
     libactuator_a3907_camcorder \
     libactuator_a3907_camera \
