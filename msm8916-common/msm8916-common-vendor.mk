@@ -593,6 +593,7 @@ PRODUCT_PACKAGES += \
     # RIL
 PRODUCT_PACKAGES += \
   libqmi_csi \
+  libqmi_common_so \
   diag_mdlog \
   diag_uart_log \
   netmgrd \
