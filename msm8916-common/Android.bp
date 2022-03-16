@@ -3323,6 +3323,24 @@ cc_prebuilt_library_shared {
 
 
 cc_prebuilt_library_shared {
+	name: "libqmi_common_so",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+
+cc_prebuilt_library_shared {
 	name: "libchromatix_imx134_preview",
 	owner: "samsung",
 	strip: {
