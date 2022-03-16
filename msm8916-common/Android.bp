@@ -3322,14 +3322,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqmi_endec",
+	name: "libqmi_encdec",
 	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libqmi_endec.so"],
+			srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
 		},
 	},
 	compile_multilib: "32",
