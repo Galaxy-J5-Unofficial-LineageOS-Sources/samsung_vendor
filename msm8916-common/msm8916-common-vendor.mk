@@ -592,6 +592,8 @@ PRODUCT_PACKAGES += \
 
     # RIL
 PRODUCT_PACKAGES += \
+  libidl \
+  libqmi_client_helper \
   libqmiservices \
   libdsutils \
   libdiag \
