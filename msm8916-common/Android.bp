@@ -1225,7 +1225,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/libdsutils.so"],
+			srcs: ["proprietary/vendor/lib/libdsutils.so"],
 		},
 	},
 	compile_multilib: "32",
