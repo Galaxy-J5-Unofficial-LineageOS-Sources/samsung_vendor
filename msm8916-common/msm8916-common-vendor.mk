@@ -604,6 +604,7 @@ PRODUCT_PACKAGES += \
   ptt_socket_app \
   port-bridge \
   qmuxd \
+  libqmi_client_qmux \
   libqmi \
   rmt_storage \
   radish \
