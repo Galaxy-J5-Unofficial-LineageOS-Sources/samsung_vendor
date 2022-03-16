@@ -590,9 +590,9 @@ PRODUCT_PACKAGES += \
     port-bridge \
     wlandutservice
 
-# RIL
+    # RIL
 PRODUCT_PACKAGES += \
-  diag_mlog \
+  diag_mdlog \
   diag_uart_log \
   netmgrd \
   ftm_ptt \
@@ -601,7 +601,7 @@ PRODUCT_PACKAGES += \
   qmuxd \
   rmt_storage \
   radish \
-  perf \
+  perfd \
   wlandutservice \
   libwcnftms \
   plmn_delta \
@@ -612,7 +612,7 @@ PRODUCT_PACKAGES += \
   libfactoryutil \
   libomission_avoidance \
   libconfigdb \
-  libdmdetect \
+  libmdmdetect \
   libnetmgr \
   libperipheral_client \
   libsubsystem_control \
