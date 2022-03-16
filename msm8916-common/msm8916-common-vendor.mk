@@ -594,6 +594,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
   libqmi_csi \
   libqmi_common_so \
+  libqmi_endec \
   diag_mdlog \
   diag_uart_log \
   netmgrd \
