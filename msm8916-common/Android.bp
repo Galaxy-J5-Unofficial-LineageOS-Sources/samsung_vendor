@@ -496,7 +496,7 @@ cc_prebuilt_binary {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/etc/srm"],
+			srcs: ["proprietary/etc/srm.bin"],
 		},
 	},
 	compile_multilib: "32",
@@ -514,7 +514,7 @@ cc_prebuilt_binary {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/etc/plmn_se13"],
+			srcs: ["proprietary/etc/plmn_se13.bin"],
 		},
 	},
 	compile_multilib: "32",
@@ -8427,23 +8427,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdmdetect",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libdmdetect.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libmdmdetect",
 	owner: "samsung",
 	strip: {
@@ -8451,7 +8434,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmdmdetec.so"],
+			srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
 		},
 	},
 	compile_multilib: "32",
