@@ -653,6 +653,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
+    libqmi_cci \
     libthermalclient \
     libthermalioctl \
     thermal-engine
