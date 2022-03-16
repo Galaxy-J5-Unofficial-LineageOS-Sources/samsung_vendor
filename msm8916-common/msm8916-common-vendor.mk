@@ -592,6 +592,7 @@ PRODUCT_PACKAGES += \
 
     # RIL
 PRODUCT_PACKAGES += \
+  libdsutils \
   libdiag \
   libqmi_csi \
   libqmi_common_so \
