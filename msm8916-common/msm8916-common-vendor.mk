@@ -687,3 +687,6 @@ PRODUCT_PACKAGES += \
     libjni_latinimegoogle \
     libqdi
 
+# Vulkan
+ PRODUCT_PACKAGES += \
+    vulkan.msm8916 \
