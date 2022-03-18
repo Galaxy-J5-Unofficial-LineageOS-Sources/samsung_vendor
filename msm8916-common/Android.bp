@@ -1303,6 +1303,24 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+
+cc_prebuilt_library_shared {
+	name: "vulkan.msm8916",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/vulkan.msm8916.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
 cc_prebuilt_library_shared {
 	name: "libqti_vndfwk_detect",
 	owner: "samsung",
