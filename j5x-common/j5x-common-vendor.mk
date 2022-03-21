@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdafcamif \
     libmmcamera_s5k3l2xx \
     libmmcamera_s5k5e3yx \
-    libmmcamera_silicon_sr552_eeprom \ 
+    libmmcamera_silicon_sr552_eeprom \
     libmmcamera_sr552 \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
