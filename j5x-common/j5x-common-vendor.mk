@@ -16,6 +16,7 @@
 
 # Config files can be on makefile
 PRODUCT_COPY_FILES += \
+    vendor/samsung/j5x-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/j5x-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/j5x-common/proprietary/etc/D05QL_s5k5e3yx_module_info.xml:system/etc/D05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/j5x-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
@@ -26,15 +27,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/etc/J05QF_sr552_module_info.xml:system/etc/J05QF_sr552_module_info.xml \
     vendor/samsung/j5x-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/j5x-common/proprietary/etc/V13QL_s5k3l2xx_module_info.xml:system/etc/V13QL_s5k3l2xx_module_info.xml \
-
-# Prebuilts for j5xnlte
+    
+    
 PRODUCT_PACKAGES += \
     camera.vendor.msm8916 \
-    libAl_Awb \
-    libAl_Awb_Sp \
+    libAl_Awb 
+    libAl_Awb_Sp 
     libTsAf \
     libaec_algo_front \
-    libaec_algo_rear \
+    libaec_algo_rear
     libaf_algo_rear \
     libawb_algo_front_al \
     libawb_algo_rear_al \
@@ -51,19 +52,32 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l2xx_hfr_120 \
     libchromatix_s5k3l2xx_liveshot \
     libchromatix_s5k3l2xx_panorama \
-    libchromatix_s5k3l2xx_pip \
     libchromatix_s5k3l2xx_preview \
     libchromatix_s5k3l2xx_snapshot \
     libchromatix_s5k3l2xx_uhd_video \
     libchromatix_s5k3l2xx_zslshot \
     libmmcamera2_stats_algorithm \
-    libmmcamera_cac2_lib \
+    libmmcamera_cac2_lib_13M \
     libmmcamera_wavelet_lib \
     libQSEEComAPI \
-    libchromatix_s5k3l2xx_vt \
-    libchromatix_s5k3l2xx_vt_hd \
-    libchromatix_s5k5e3yx_wide_video \
-    libchromatix_s5k5e3yx_wide_vt \
+    libactuator_zc533_camcorder \
+    libactuator_zc533_camera \
+    libchromatix_s5k5e3yx_wide_f1_9_common \
+    libchromatix_s5k5e3yx_wide_f1_9_preview \
+    libchromatix_s5k5e3yx_wide_f1_9_snapshot \
+    libchromatix_s5k5e3yx_wide_f1_9_video \
+    libchromatix_s5k5e3yx_wide_f1_9_vt \
+    libchromatix_s5k5e3yx_wide_f1_9_vt_hd \
+    libchromatix_s5k5e3yx_wide_f1_9_zslshot \
+    libchromatix_sr552_common \
+   libchromatix_sr552_default_video \
+    libchromatix_sr552_liveshot \
+    libchromatix_sr552_preview \
+    libchromatix_sr552_snapshot \
+    libchromatix_sr552_vt \
+    libchromatix_sr552_vt_15fps \
+    libchromatix_sr552_vt_30fps \
+    libchromatix_sr552_zslshot \
     libdiag \
     libdsutils \
     libidl \
@@ -83,16 +97,17 @@ PRODUCT_PACKAGES += \
     libmmcamera_hdr_lib \
     libmmcamera_image_stab \
     libmmcamera_imglib \
-    libmmcamera_lsi_s5k5e3yx_eeprom \
+    libmmcamera_m24128s_eeprom \
+    libmmcamera_pdaf \
+    libmmcamera_pdafcamif \
     libmmcamera_s5k3l2xx \
     libmmcamera_s5k5e3yx \
-    libmmcamera_sunny_p12v01m_eeprom \
-    libmmcamera_sunny_p5v23c_eeprom \
+    libmmcamera_silicon_sr552_eeprom 
+    libmmcamera_sr552 \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
+    libmmcamera_zc533_eeprom \
     libmmipl \
-    libmmjpeg \
-    libmmqjpeg_codec \
     liboemcamera \
     libqcci_legacy \
     libqmi \
@@ -102,5 +117,4 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
-    libqomx_jpegenc \
-    qseecomd
+    libqomx_jpegenc
