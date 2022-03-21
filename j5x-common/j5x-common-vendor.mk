@@ -46,7 +46,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l2xx_common_res2 \
     libchromatix_s5k3l2xx_common_res3 \
     libchromatix_s5k3l2xx_default_video \
-    libchromatix_s5k3l2xx_golfshot \
     libchromatix_s5k3l2xx_hfr_1080p_b \
     libchromatix_s5k3l2xx_hfr_1080p_s \
     libchromatix_s5k3l2xx_hfr_120 \
@@ -62,8 +61,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_cac2_lib \
     libmmcamera_wavelet_lib \
     libQSEEComAPI \
-    libactuator_dw9806_camcorder \
-    libactuator_dw9806_camera \
     libchromatix_s5k3l2xx_vt \
     libchromatix_s5k3l2xx_vt_hd \
     libchromatix_s5k5e3yx_wide_common \
