@@ -28,11 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/samsung/j5x-common/proprietary/etc/V13QL_s5k3l2xx_module_info.xml:system/etc/V13QL_s5k3l2xx_module_info.xml \
     
-    
 PRODUCT_PACKAGES += \
     camera.vendor.msm8916 \
-    libAl_Awb 
-    libAl_Awb_Sp 
+    libAl_Awb  \
+    libAl_Awb_Sp \
     libTsAf \
     libaec_algo_front \
     libaec_algo_rear
