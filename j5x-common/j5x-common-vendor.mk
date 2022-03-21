@@ -16,7 +16,6 @@
 
 # Config files can be on makefile
 PRODUCT_COPY_FILES += \
-    vendor/samsung/j5x-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/j5x-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/j5x-common/proprietary/etc/D05QL_s5k5e3yx_module_info.xml:system/etc/D05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/j5x-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
