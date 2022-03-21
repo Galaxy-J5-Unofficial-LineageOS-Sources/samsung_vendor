@@ -311,24 +311,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libchromatix_s5k3l2xx_golfshot",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_golfshot.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-
-cc_prebuilt_library_shared {
 	name: "libchromatix_s5k3l2xx_hfr_1080p_b",
 	owner: "samsung",
 	strip: {
@@ -724,40 +706,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-
-cc_prebuilt_library_shared {
-	name: "libchromatix_s5k5e3yx_wide_zslshot",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libchromatix_s5k5e3yx_wide_zslshot.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmmcamera_dw_dw9806b_eeprom",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libmmcamera_dw_dw9806b_eeprom.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
 
 cc_prebuilt_library_shared {
 	name: "libmmcamera_image_stab",
