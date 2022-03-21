@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l2xx_pip \
     libchromatix_s5k3l2xx_preview \
     libchromatix_s5k3l2xx_snapshot \
-    libchromatix_s5k3l2xx_sports \
     libchromatix_s5k3l2xx_uhd_video \
     libchromatix_s5k3l2xx_zslshot \
     libmmcamera2_stats_algorithm \
@@ -63,14 +62,8 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libchromatix_s5k3l2xx_vt \
     libchromatix_s5k3l2xx_vt_hd \
-    libchromatix_s5k5e3yx_wide_common \
-    libchromatix_s5k5e3yx_wide_pip \
-    libchromatix_s5k5e3yx_wide_preview \
-    libchromatix_s5k5e3yx_wide_snapshot \
     libchromatix_s5k5e3yx_wide_video \
     libchromatix_s5k5e3yx_wide_vt \
-    libchromatix_s5k5e3yx_wide_vt_hd \
-    libchromatix_s5k5e3yx_wide_zslshot \
     libdiag \
     libdsutils \
     libidl \
@@ -86,16 +79,13 @@ PRODUCT_PACKAGES += \
     libmmcamera2_stats_modules \
     libmmcamera2_vpe_module \
     libmmcamera2_wnr_module \
-    libmmcamera_dw_dw9806b_eeprom \
     libmmcamera_hdr_gb_lib \
     libmmcamera_hdr_lib \
     libmmcamera_image_stab \
     libmmcamera_imglib \
     libmmcamera_lsi_s5k5e3yx_eeprom \
-    libmmcamera_rohm_brce064gwz_eeprom \
     libmmcamera_s5k3l2xx \
     libmmcamera_s5k5e3yx \
-    libmmcamera_silicon_sr544_eeprom \
     libmmcamera_sunny_p12v01m_eeprom \
     libmmcamera_sunny_p5v23c_eeprom \
     libmmcamera_tintless_algo \
