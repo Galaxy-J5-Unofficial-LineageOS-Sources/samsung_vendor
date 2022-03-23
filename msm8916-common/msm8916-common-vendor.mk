@@ -56,39 +56,6 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     libjpegdhw \
     libjpegehw \
-    libmmcamera_faceproc \
-    mm-qcamera-daemon \
-    libactuator_a3907 \
-    libactuator_a3907_camcorder \
-    libactuator_a3907_camera \
-    libactuator_dw9714 \
-    libactuator_dw9714_camcorder \
-    libactuator_dw9714_camera \
-    libactuator_dw9714_q13n04a \
-    libactuator_dw9714_q13n04a_camcorder \
-    libactuator_dw9714_q13n04a_camera \
-    libactuator_dw9714_q13v04b \
-    libactuator_dw9714_q13v04b_camcorder \
-    libactuator_dw9714_q13v04b_camera \
-    libactuator_dw9714_q8v19w \
-    libactuator_dw9714_q8v19w_camcorder \
-    libactuator_dw9714_q8v19w_camera \
-    libactuator_dw9716 \
-    libactuator_dw9716_camcorder \
-    libactuator_dw9716_camera \
-    libactuator_dw9761b \
-    libactuator_iu074 \
-    libactuator_iu074_camcorder \
-    libactuator_iu074_camera \
-    libactuator_ov12830 \
-    libactuator_ov12830_camcorder \
-    libactuator_ov12830_camera \
-    libactuator_ov8825 \
-    libactuator_ov8825_camcorder \
-    libactuator_ov8825_camera \
-    libactuator_rohm_bu64243gwz \
-    libactuator_rohm_bu64243gwz_camcorder \
-    libactuator_rohm_bu64243gwz_camera \
     libchromatix_S5K4E1_13P1BA_common \
     libchromatix_S5K4E1_13P1BA_default_video \
     libchromatix_S5K4E1_13P1BA_hfr_120fps \
@@ -251,78 +218,6 @@ PRODUCT_PACKAGES += \
     libchromatix_skuf_ov5648_p5v23c_default_video \
     libchromatix_skuf_ov5648_p5v23c_preview \
     libchromatix_skuf_ov5648_p5v23c_snapshot \
-    libimscamera_jni \
-    libmm-abl-oem \
-    libmm-color-convertor \
-    libmm-disp-apis \
-    libmm-hdcpmgr \
-    libmm-qcamera \
-    libmm-qdcm \
-    libmmcamera2_c2d_module \
-    libmmcamera2_cpp_module \
-    libmmcamera2_frame_algorithm \
-    libmmcamera2_iface_modules \
-    libmmcamera2_imglib_modules \
-    libmmcamera2_is \
-    libmmcamera2_isp_modules \
-    libmmcamera2_pproc_modules \
-    libmmcamera2_q3a_core \
-    libmmcamera2_sensor_modules \
-    libmmcamera2_stats_algorithm \
-    libmmcamera2_stats_modules \
-    libmmcamera2_vpe_module \
-    libmmcamera2_wnr_module \
-    libmmcamera_S5K4E1_13P1BA \
-    libmmcamera_SKUAA_ST_gc0339 \
-    libmmcamera_SKUAB_ST_s5k4e1 \
-    libmmcamera_dummyalgo \
-    libmmcamera_dw9761b_eeprom \
-    libmmcamera_hdr_gb_lib \
-    libmmcamera_hdr_lib \
-    libmmcamera_hi256 \
-    libmmcamera_imglib \
-    libmmcamera_imx132 \
-    libmmcamera_imx134 \
-    libmmcamera_imx135 \
-    libmmcamera_imx214 \
-    libmmcamera_mt9m114 \
-    libmmcamera_ofilm_oty5f03_eeprom \
-    libmmcamera_ov13850 \
-    libmmcamera_ov13850_q13v06k \
-    libmmcamera_ov16825 \
-    libmmcamera_ov2680 \
-    libmmcamera_ov2680_5987fhq \
-    libmmcamera_ov5645 \
-    libmmcamera_ov5648_oty5f03 \
-    libmmcamera_ov5648_p5v18g \
-    libmmcamera_ov5648_q5v22e \
-    libmmcamera_ov5670_30010a3 \
-    libmmcamera_ov8858 \
-    libmmcamera_ov8858_q8v19w \
-    libmmcamera_ov8858_q8v19w_30 \
-    libmmcamera_ov8865_q8v18a \
-    libmmcamera_pdaf \
-    libmmcamera_pdafcamif \
-    libmmcamera_s5k3m2xm \
-    libmmcamera_skuab_shinetech_gc0339 \
-    libmmcamera_skuf_ov12830_p12v01c \
-    libmmcamera_skuf_ov5648_p5v23c \
-    libmmcamera_sonyimx135_eeprom \
-    libmmcamera_sp1628 \
-    libmmcamera_sunny_ov8858_q8v19w_eeprom \
-    libmmcamera_sunny_p12v01m_eeprom \
-    libmmcamera_sunny_p5v23c_eeprom \
-    libmmcamera_sunny_q13v04b_eeprom \
-    libmmcamera_sunny_q13v06k_eeprom \
-    libmmcamera_sunny_q5v22e_eeprom \
-    libmmcamera_sunny_q5v41b_eeprom \
-    libmmcamera_sunny_q8v18a_eeprom \
-    libmmcamera_tintless_algo \
-    libmmcamera_tintless_bg_pca_algo \
-    libmmcamera_truly_cm7700_eeprom \
-    libmmcamera_tuning \
-    libmmcamera_wavelet_lib \
-    liboemcamera \
     libjni_imageutil \
     libjni_snapcammosaic \
     libjni_snapcamtinyplanet
