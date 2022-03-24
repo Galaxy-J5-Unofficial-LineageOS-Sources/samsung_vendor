@@ -429,13 +429,6 @@ PRODUCT_PACKAGES += \
     wdsdaemon \
     subsystem_ramdump
 
-# MicroG
-PRODUCT_PACKAGES += \
-    gms \
-    droidguard \
-    vending \
-    gsf
-
 # Perf
 PRODUCT_PACKAGES += \
     libqti-at \
