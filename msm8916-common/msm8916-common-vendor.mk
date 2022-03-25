@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     
 PRODUCT_PACKAGES += \
     mm-qcamera-daemon \
+    libmmcamera2_q3a_core \
     libexifa \
     libjpega \
     libmmcamera_interface \
