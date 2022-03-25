@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw 
     
 PRODUCT_PACKAGES += \
+    mm-qcamera-daemon \
     libexifa \
     libjpega \
     libmmcamera_interface \
