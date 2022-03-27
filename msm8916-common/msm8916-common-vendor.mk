@@ -340,7 +340,6 @@ PRODUCT_PACKAGES += \
 
 # Snapdragon Apps
 PRODUCT_PACKAGES += \
-    SnapdragonCamera \
     SnapdragonGallery \
     SnapdragonMusic
 
