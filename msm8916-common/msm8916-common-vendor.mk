@@ -269,18 +269,6 @@ PRODUCT_PACKAGES += \
     wdsdaemon \
     subsystem_ramdump
 
-# Perf
-PRODUCT_PACKAGES += \
-    libqti-at \
-    libqti-perfd-client \
-    libqti-perfd \
-    libperfgluelayer \
-    perfd \
-    vendor.qti.hardware.perf@1.0_vendor \
-    vendor.qti.hardware.perf@1.0 \
-    libqti-perfd-client_system \
-    vendor.qti.hardware.perf@1.0-service
-
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 
@@ -302,7 +290,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin
 
 PRODUCT_PACKAGES += \
+    qmuxd \
     libatparser \
+    libconfigdb \
+    libmdmdetect \
+    libnetmgr \
     libwcnftms \
     libcordon \
     libfactoryutil \
@@ -310,55 +302,26 @@ PRODUCT_PACKAGES += \
     libperipheral_client \
     libsubsystem_control \
     libSubSystemShutdown \
+    libqti-perfd-client \
     libxml \
+    libqti-at \
+    libdsi_netctrl \
     diag_mdlog \
     diag_uart_log \
     ftm_ptt \
+    netmgrd \
     ptt_socket_app \
     port-bridge \
+    rmt_storage \
+    radish \
+    perfd \
     wlandutservice
 
     # RIL
 PRODUCT_PACKAGES += \
-  libidl \
-  libqmi_client_helper \
-  libqmiservices \
-  libdsutils \
-  libdiag \
-  libqmi_csi \
-  libqmi_common_so \
-  libqmi_encdec \
-  diag_mdlog \
-  diag_uart_log \
-  netmgrd \
-  ftm_ptt \
-  ptt_socket_app \
-  port-bridge \
-  qmuxd \
-  libqmi_client_qmux \
-  libqmi \
-  rmt_storage \
-  radish \
-  perfd \
-  wlandutservice \
-  libwcnftms \
-  plmn_delta \
-  plmn_se13 \
-  srm \
-  libatparser \
-  libcordon \
-  libfactoryutil \
-  libomission_avoidance \
-  libconfigdb \
-  libmdmdetect \
-  libnetmgr \
-  libperipheral_client \
-  libsubsystem_control \
-  libSubSystemShutdown \
-  libxml \
-  libqti-perfd-client \
-  libqti-at \
-  libdsi_netctrl
+    libaudio-ril \
+    libsecril-client \
+    libril-qcril-hook-oem
 
 # SAMSUNG
 PRODUCT_PACKAGES += \
