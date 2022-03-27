@@ -381,3 +381,6 @@ PRODUCT_PACKAGES += \
 # Vulkan
  PRODUCT_PACKAGES += \
     vulkan.msm8916 \
+    libbccQTI \
+    libllvm-qgl \
+    libq3dtools_esx
