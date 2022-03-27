@@ -303,6 +303,7 @@ PRODUCT_PACKAGES += \
     libsubsystem_control \
     libSubSystemShutdown \
     libqti-perfd-client \
+    libqmi_client_helper \
     libxml \
     libqti-at \
     libdsi_netctrl \
