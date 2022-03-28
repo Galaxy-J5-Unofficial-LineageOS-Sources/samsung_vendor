@@ -204,7 +204,6 @@ PRODUCT_PACKAGES += \
     libqct_resampler \
     libtime_genoff \
     TimeService \
-    Gcam \
     Lawnchair \
-    OTA \
-    GalleryGo
+    OpenCamera \
+    OTA
