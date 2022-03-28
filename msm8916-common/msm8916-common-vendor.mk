@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     mm-qcamera-daemon \
     libmmcamera2_q3a_core \
+    libmmcamera_faceproc \
     libexifa \
     libjpega \
     libmmcamera_interface \
@@ -60,7 +61,8 @@ PRODUCT_PACKAGES += \
     libjpegehw \
     libjni_imageutil \
     libjni_snapcammosaic \
-    libjni_snapcamtinyplanet
+    libjni_snapcamtinyplanet \
+    vendor.qti.hardware.camera.device@1.0_vendor
     
 # DRM
 PRODUCT_PACKAGES += \
