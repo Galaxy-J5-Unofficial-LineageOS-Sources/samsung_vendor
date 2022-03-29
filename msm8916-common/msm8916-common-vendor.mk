@@ -273,12 +273,10 @@ PRODUCT_PACKAGES += \
     
 # Widevine
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libwvm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvm.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/aandroid.hardware.drm@1.3-service-lazy.widevine \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc
 
 # Other
 PRODUCT_COPY_FILES += \
