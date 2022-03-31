@@ -33,9 +33,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so 
 
 # Bluetooth
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0 \
-    libbtnv
+PRODUCT_COPY_FILES += \
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so
 
 # Camera
 PRODUCT_COPY_FILES += \
