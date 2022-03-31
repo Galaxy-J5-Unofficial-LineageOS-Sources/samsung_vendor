@@ -81,7 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/fm_helium.so:$(TARGET_COPY_OUT_VENDOR)/lib/fm_helium.so 
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/fm_helium.so:$(TARGET_COPY_OUT_VENDOR)/lib/fm_helium.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libfm-hci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfm-hci.so
 
 # GPS
 PRODUCT_COPY_FILES += \
