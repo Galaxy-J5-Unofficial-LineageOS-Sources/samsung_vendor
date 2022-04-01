@@ -213,7 +213,6 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary-apps
 PRODUCT_PACKAGES += \
-    Lawnchair \
     Gcam
 
 # Radio
