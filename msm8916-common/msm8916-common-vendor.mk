@@ -192,13 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libscve_mv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscve_mv.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libscve.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscve.so 
 
-# MicroG
-PRODUCT_PACKAGES += \
-    gms \
-    droidguard \
-    vending \
-    gsf
-
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
