@@ -7,76 +7,37 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter j53gxx j5lte j5ltechn j5nlte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Lawnchair
-LOCAL_MODULE_OWNER := lawnchair
-LOCAL_SRC_FILES := proprietary/system/priv-app/Lawnchair/Lawnchair.apk
+LOCAL_MODULE := DaxUI
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/system/priv-app/DaxUI/DaxUI.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Gcam
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/system/priv-app/Gcam/Gcam.apk
+LOCAL_MODULE := daxService
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/system/priv-app/daxService/daxService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
+LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := gms
-LOCAL_MODULE_OWNER := MicroG
-LOCAL_SRC_FILES := proprietary/system/priv-app/MicroG/com.google.android.gms-212658044.apk
+LOCAL_MODULE := dolby_dax
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/system/framework/dolby_dax.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := droidguard
-LOCAL_MODULE_OWNER := MicroG
-LOCAL_SRC_FILES := proprietary/system/priv-app/MicroG/org.microg.gms.droidguard-4.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := vending
-LOCAL_MODULE_OWNER := MicroG
-LOCAL_SRC_FILES := proprietary/system/priv-app/MicroG/com.android.vending-16.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := gsf
-LOCAL_MODULE_OWNER := MicroG
-LOCAL_SRC_FILES := proprietary/system/priv-app/MicroG/com.google.android.gsf-8.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
 
 endif
