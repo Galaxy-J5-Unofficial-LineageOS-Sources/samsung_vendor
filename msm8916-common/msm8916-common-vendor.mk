@@ -218,7 +218,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RetroMusic \
     GalleryGo \
-    Gcam
+    Gcam \
+    OTA
 
 # QUALCOMM
 PRODUCT_PACKAGES += \
