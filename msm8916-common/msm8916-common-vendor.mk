@@ -62,6 +62,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so 
     
+# Dolby Atmos
+PRODUCT_COPY_FILES += \
+	vendor/lenovo/a6010/proprietary/vendor/lib/libdapparamstorage.so:system/vendor/lib/libdapparamstorage.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/libdlbdsservice.so:system/vendor/lib/libdlbdsservice.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/libstagefrightdolby.so:system/vendor/lib/libstagefrightdolby.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/soundfx/libatmos.so:system/vendor/lib/soundfx/libatmos.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so:system/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so \
+	vendor/lenovo/a6010/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:system/vendor/lib/vendor.dolby.hardware.dms@1.0.so \
+	vendor/lenovo/a6010/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:system/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service \
+	vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:system/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
+	vendor/lenovo/a6010/proprietary/vendor/etc/dolby/dap-default.xml:system/vendor/etc/dolby/dap-default.xml \
+	vendor/lenovo/a6010/proprietary/vendor/etc/media_codecs_dolby_audio.xml:system/vendor/etc/media_codecs_dolby_audio.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/permissions/dolby_dax.xml:system/etc/permissions/dolby_dax.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/permissions/privapp-com.dolby.atmos.xml:system/etc/permissions/privapp-com.dolby.atmos.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:system/etc/permissions/privapp-com.dolby.daxservice.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.atmos.xml:system/etc/sysconfig/config-com.dolby.atmos.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.daxappui.xml:system/etc/sysconfig/config-com.dolby.daxappui.xml \
+	vendor/lenovo/a6010/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:system/etc/sysconfig/config-com.dolby.daxservice.xml
+
+PRODUCT_PACKAGES += \
+	DaxUI \
+	daxService \
+	dolby_dax
+
 # DRM
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/qcom-system-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qcom-system-daemon \
