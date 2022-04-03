@@ -5,6 +5,13 @@
 soong_namespace {
 }
 
+dex_import {
+	name: "dolby_dax",
+	owner: "lenovo",
+	jars: ["proprietary/system/framework/dolby_dax.jar"],
+	soc_specific: true,
+} 
+
 cc_prebuilt_library_shared {
 	name: "libloc_api_v02",
 	owner: "samsung",
