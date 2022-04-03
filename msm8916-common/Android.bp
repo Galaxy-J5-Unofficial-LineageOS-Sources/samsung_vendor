@@ -5,6 +5,59 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libwvhidl",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwvdrmengine",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/mediadrm/libwvdrmengine.so"],
+		},
+	},
+	relative_install_path: "mediadrm",
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.3-service-lazy.widevine",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine"],
+		},
+	},
+	relative_install_path: "hw",
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
 dex_import {
 	name: "dolby_dax",
 	owner: "lenovo",
