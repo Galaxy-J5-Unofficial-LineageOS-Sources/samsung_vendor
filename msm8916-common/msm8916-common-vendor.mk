@@ -80,7 +80,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/msm8916-common/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:system/etc/permissions/privapp-com.dolby.daxservice.xml \
 	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.atmos.xml:system/etc/sysconfig/config-com.dolby.atmos.xml \
 	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.daxappui.xml:system/etc/sysconfig/config-com.dolby.daxappui.xml \
-	vendor/samsung/msm8916-common0/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:system/etc/sysconfig/config-com.dolby.daxservice.xml
+	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:system/etc/sysconfig/config-com.dolby.daxservice.xml
 
 PRODUCT_PACKAGES += \
 	DaxUI \
