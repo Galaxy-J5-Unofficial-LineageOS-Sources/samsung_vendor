@@ -150,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofencing.so \
 
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -290,7 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_common.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_nr_fusion.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr_rmnet_ext.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libnlnetmgr.so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
@@ -441,7 +442,6 @@ PRODUCT_PACKAGES += \
 # Other
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
     vendor/samsung/msm8916-common/proprietary/lib/libprotobuf-cpp-lite-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-lite-old.so \
     vendor/samsung/msm8916-common/proprietary/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full-old.so \
     vendor/samsung/msm8916-common/proprietary/lib/libstagefright_foundation-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_foundation-old.so \
