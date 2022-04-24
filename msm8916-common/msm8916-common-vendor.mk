@@ -326,6 +326,7 @@ vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.radio.a
     vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0_vendor.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so
 
 # RIL
 PRODUCT_COPY_FILES += \
