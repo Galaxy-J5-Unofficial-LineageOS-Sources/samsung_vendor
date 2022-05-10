@@ -177,9 +177,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw
 
 # Lawnchair
-# PRODUCT_PACKAGES += \
-#  Lawnchair \
-#  Lawnicons
+PRODUCT_PACKAGES += \
+   Lawnchair \
+   Lawnicons
 
 # Media
 PRODUCT_COPY_FILES += \
