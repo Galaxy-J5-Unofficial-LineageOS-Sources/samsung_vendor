@@ -265,3 +265,26 @@ android_app_import {
 	},
 	soc_specific: true,
 }
+
+android_app_import {
+	name: "Lawnchair",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/Lawnchair/Lawnchair.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+
+android_app_import {
+	name: "Lawnicons",
+	owner: "samsung",
+	apk: "proprietary/system/priv-app/Lawnchair/Lawnicons.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
