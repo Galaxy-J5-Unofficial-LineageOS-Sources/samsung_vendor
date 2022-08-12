@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsomxnaace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxnaace.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsomxvp8d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomxvp8d.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libwcnftms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcnftms.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/aandroid.hardware.drm@1.3-service-lazy.widevine \
+    vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service-lazy.widevine \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc \
