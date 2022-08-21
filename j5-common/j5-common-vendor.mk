@@ -7,14 +7,14 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/j5-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/samsung/j5-common/proprietary/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Bluetooth_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/General_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Global_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Handset_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Hdmi_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
-    vendor/samsung/j5-common/proprietary/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/T13QL_s5k3l2xx_module_info.xml \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/General_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Global_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Handset_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Hdmi_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Headset_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Speaker_cal.acdb \
+    vendor/samsung/j5-common/proprietary/vendor/etc/T13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/T13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/j5-common/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
     vendor/samsung/j5-common/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \

@@ -9,7 +9,7 @@ ifneq ($(filter j53gxx j5lte j5ltechn j5nlte,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := DaxUI
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/system/priv-app/DaxUI/DaxUI.apk
+LOCAL_SRC_FILES := proprietary/vendor/priv-app/DaxUI/DaxUI.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -17,12 +17,13 @@ LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := daxService
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/system/priv-app/daxService/daxService.apk
+LOCAL_SRC_FILES := proprietary/vendor/priv-app/daxService/daxService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -30,6 +31,21 @@ LOCAL_ENFORCE_USES_LIBRARIES := false
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := qti-logkit
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/vendor/priv-app/qti-logkit/qti-logkit.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif

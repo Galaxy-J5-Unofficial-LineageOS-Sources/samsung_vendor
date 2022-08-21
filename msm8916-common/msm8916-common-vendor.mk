@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
     vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -49,8 +49,8 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_420sp.yuv \
-    vendor/samsung/msm8916-common/proprietary/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_SYSTEM)/cameradata/datapattern_front_420sp.yuv \
+    vendor/samsung/msm8916-common/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/msm8916-common/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/msm8916-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
@@ -66,23 +66,23 @@ PRODUCT_COPY_FILES += \
     
 # Dolby Atmos
 PRODUCT_COPY_FILES += \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/libdapparamstorage.so:system/vendor/lib/libdapparamstorage.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/libdlbdsservice.so:system/vendor/lib/libdlbdsservice.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefrightdolby.so:system/vendor/lib/libstagefrightdolby.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/soundfx/libatmos.so:system/vendor/lib/soundfx/libatmos.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so:system/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:system/vendor/lib/vendor.dolby.hardware.dms@1.0.so \
-	vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:system/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service \
-	vendor/samsung/msm8916-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:system/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
-	vendor/samsung/msm8916-common/proprietary/vendor/etc/dolby/dap-default.xml:system/vendor/etc/dolby/dap-default.xml \
-	vendor/samsung/msm8916-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:system/vendor/etc/media_codecs_dolby_audio.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/permissions/dolby_dax.xml:system/etc/permissions/dolby_dax.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/permissions/privapp-com.dolby.atmos.xml:system/etc/permissions/privapp-com.dolby.atmos.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/permissions/privapp-com.dolby.daxservice.xml:system/etc/permissions/privapp-com.dolby.daxservice.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.atmos.xml:system/etc/sysconfig/config-com.dolby.atmos.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.daxappui.xml:system/etc/sysconfig/config-com.dolby.daxappui.xml \
-	vendor/samsung/msm8916-common/proprietary/system/etc/sysconfig/config-com.dolby.daxservice.xml:system/etc/sysconfig/config-com.dolby.daxservice.xml
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdlbdsservice.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/soundfx/libatmos.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libatmos.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0-impl.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
+	vendor/samsung/msm8916-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/dolby/dap-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/permissions/dolby_dax.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dolby_dax.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/permissions/privapp-com.dolby.atmos.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-com.dolby.atmos.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-com.dolby.daxservice.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/sysconfig/config-com.dolby.atmos.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.atmos.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/sysconfig/config-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.daxappui.xml \
+	vendor/samsung/msm8916-common/proprietary/vendor/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/config-com.dolby.daxservice.xml
 
 PRODUCT_PACKAGES += \
 	DaxUI \
@@ -105,8 +105,8 @@ PRODUCT_COPY_FILES += \
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8916-common/proprietary/system/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
-    vendor/samsung/msm8916-common/proprietary/system/fonts/RobotoStatic-Regular.ttf:system/fonts/RobotoStatic-Regular.ttf
+    vendor/samsung/msm8916-common/proprietary/vendor/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+    vendor/samsung/msm8916-common/proprietary/vendor/fonts/RobotoStatic-Regular.ttf:system/fonts/RobotoStatic-Regular.ttf
 
 # FM
 PRODUCT_COPY_FILES += \
@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/fm_helium.so:$(TARGET_COPY_OUT_VENDOR)/lib/fm_helium.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libfm-hci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfm-hci.so
 
@@ -183,7 +183,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    vendor/samsung/msm8916-common/proprietary/etc/somxreg.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/somxreg.conf \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdecHevc.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libplayready_v2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libplayready_v2.5.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsomx263dsw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomx263dsw.so \
@@ -269,9 +269,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/wlandutservice:$(TARGET_COPY_OUT_VENDOR)/bin/wlandutservice \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libwcnftms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcnftms.so \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_delta.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_delta.bin \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
-    vendor/samsung/msm8916-common/proprietary/etc/srm.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/srm.bin \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/srm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/srm.bin \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libatparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libatparser.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libcordon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcordon.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libfactoryutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfactoryutil.so \
@@ -285,7 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so
 
 # RIL
 PRODUCT_COPY_FILES += \
@@ -336,10 +336,10 @@ PRODUCT_PACKAGES += \
 # Other
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
-    vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/plmn_se13.bin \
-    vendor/samsung/msm8916-common/proprietary/lib/libprotobuf-cpp-lite-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-lite-old.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full-old.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libstagefright_foundation-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_foundation-old.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libcutils-old.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcutils-old.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-lite-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-old.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-old.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefright_foundation-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation-old.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libcutils-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils-old.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_latinimegoogle.so 
