@@ -19,21 +19,9 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Gcam
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/system/priv-app/Gcam/Gcam.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := GalleryGo
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/system/priv-app/GalleryGo/GalleryGo.apk
+LOCAL_MODULE := OpenCamera
+LOCAL_MODULE_OWNER := Mark Harman
+LOCAL_SRC_FILES := proprietary/system/priv-app/OpenCamera/OpenCamera.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
