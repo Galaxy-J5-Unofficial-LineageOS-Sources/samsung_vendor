@@ -145,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libRBEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBEGL_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv1_CM_adreno.so \
@@ -252,6 +253,11 @@ PRODUCT_PACKAGES += \
     Gcam \
     OTA
 
+# Protobuff
+PRODUCT_PACKAGES += \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-lite-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-old.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-old.so
+
 # QUALCOMM
 PRODUCT_PACKAGES += \
    QSensorTest
@@ -336,10 +342,6 @@ PRODUCT_PACKAGES += \
 # Other
 PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
-    vendor/samsung/msm8916-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-lite-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-old.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-full-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-old.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libstagefright_foundation-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation-old.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libcutils-old.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcutils-old.so \
-    vendor/samsung/msm8916-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_latinimegoogle.so 
