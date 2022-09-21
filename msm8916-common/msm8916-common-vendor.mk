@@ -340,12 +340,12 @@ PRODUCT_PACKAGES += \
     
 # Widevine
 PRODUCT_COPY_FILES += \
-  vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc
+  vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc
 
 PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
-    android.hardware.drm@1.3-service-lazy.widevine
+    android.hardware.drm@1.4-service.widevine
 
 # Other
 PRODUCT_COPY_FILES += \

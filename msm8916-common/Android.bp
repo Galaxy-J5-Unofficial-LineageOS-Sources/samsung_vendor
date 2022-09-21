@@ -40,15 +40,33 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "android.hardware.drm@1.3-service-lazy.widevine",
+cc_prebuilt_library_shared {
+	name: "libdrmclearkeyplugin",
 	owner: "samsung",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine"],
+			srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
+		},
+	},
+	relative_install_path: "mediadrm",
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.4-service.widevine",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine"],
 		},
 	},
 	relative_install_path: "hw",
