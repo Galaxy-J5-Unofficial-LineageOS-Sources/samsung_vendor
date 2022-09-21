@@ -340,7 +340,10 @@ PRODUCT_PACKAGES += \
     
 # Widevine
 PRODUCT_COPY_FILES += \
-  vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc
+  vendor/samsung/msm8916-common/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
+ vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
+ vendor/samsung/msm8916-common/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
+    
 
 PRODUCT_PACKAGES += \
     libwvhidl \
