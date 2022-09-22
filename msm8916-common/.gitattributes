@@ -1,2 +1,4 @@
 msm8916-common/proprietary/vendor/priv-app/Bromite/bromite_browser.apk filter=lfs diff=lfs merge=lfs -text
 msm8916-common/proprietary/vendor/priv-app/Bromite/bromite_webview.apk filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/priv-app/Bromite/bromite_browser.apk filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/priv-app/Bromite/bromite_webview.apk filter=lfs diff=lfs merge=lfs -text

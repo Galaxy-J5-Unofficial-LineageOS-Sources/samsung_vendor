@@ -306,3 +306,25 @@ android_app_import {
 	},
 	soc_specific: true,
 }
+
+android_app_import {
+	name: "Bromite_browser",
+	owner: "samsung",
+	apk: "proprietary/vendor/priv-app/Bromite/bromite_browser.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "Bromite_webview",
+	owner: "samsung",
+	apk: "proprietary/vendor/priv-app/Bromite/bromite_webview.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}

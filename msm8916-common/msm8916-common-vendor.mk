@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect.so
 
+# Bromite
+PRODUCT_PACKAGES += \
+    Bromite_browser \
+    Bromite_webview
 
 # Camera
 PRODUCT_COPY_FILES += \
