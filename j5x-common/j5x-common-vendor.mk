@@ -23,9 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5x-common/proprietary/vendor/etc/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Handset_cal.acdb \
     vendor/samsung/j5x-common/proprietary/vendor/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Hdmi_cal.acdb \
     vendor/samsung/j5x-common/proprietary/vendor/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Headset_cal.acdb \
-    vendor/samsung/j5x-common/proprietary/vendor/etc/J05QF_sr552_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/J05QF_sr552_module_info.xml \
+    vendor/samsung/j5x-common/proprietary/vendor/etc/J05QF_sr552_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/J05QF_sr552_module_info.xml \
     vendor/samsung/j5x-common/proprietary/vendor/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Speaker_cal.acdb \
-    vendor/samsung/j5x-common/proprietary/vendor/etc/V13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/V13QL_s5k3l2xx_module_info.xml \
+    vendor/samsung/j5x-common/proprietary/vendor/etc/V13QL_s5k3l2xx_module_info.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/V13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/j5x-common/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libAl_Awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb.so \
     vendor/samsung/j5x-common/proprietary/vendor/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAl_Awb_Sp.so \
