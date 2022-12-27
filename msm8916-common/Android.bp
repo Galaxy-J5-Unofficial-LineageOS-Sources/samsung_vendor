@@ -241,20 +241,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Gcam",
-	owner: "samsung",
-	apk: "proprietary/vendor/priv-app/Gcam/Gcam.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "GalleryGo",
-	owner: "samsung",
-	apk: "proprietary/vendor/priv-app/GalleryGo/GalleryGo.apk",
+	name: "Horizon",
+	owner: "daviiid99",
+	apk: "proprietary/vendor/priv-app/Horizon/Horizon.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

@@ -258,8 +258,7 @@ PRODUCT_COPY_FILES += \
 # Proprietary-apps
 PRODUCT_PACKAGES += \
     RetroMusic \
-    GalleryGo \
-    Gcam \
+    Horizon \
     OTA
 
 # Protobuff
